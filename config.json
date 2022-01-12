@@ -1,0 +1,13 @@
+{
+    "TOKEN": "",
+    "PREFIX": "!",
+    "Owner": "",
+
+    "HerkesKullanabilir?": false,
+
+    "Default": {
+        "Role": "zweq",
+        "Channel": "zweq",
+        "Mention": "discord.gg/zweq"
+    }
+}
