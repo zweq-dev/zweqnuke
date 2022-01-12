@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const client = global.client = new Discord.Client();
 const config = require("./config.json");
 const chalk = require("chalk");
+const { red, greenBright, cyan, yellow } = require("chalk");
 
 client.on("ready", () => {
     console.clear();
