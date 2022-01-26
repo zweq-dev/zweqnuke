@@ -259,4 +259,4 @@ process.on("unhandledRejection", err => {
 	return;
 });
 
-client.login(config.TOKEN)
+client.login(config.TOKEN).catch(err=>{ console.log("INVALID TOKEN!") });
